@@ -1,2 +1,7 @@
 .history
 node_modules
+.tern-port
+.swo
+.swp
+.swa
+Sessioin.vim
