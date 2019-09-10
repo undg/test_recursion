@@ -5,6 +5,7 @@
     "main": "src/index.js",
     "scripts": {
         "test": "ava",
+        "test:w": "ava --watch",
         "format": "prettier --write '**/**.{js,json}'"
     },
     "author": "Adam Timberlake <adam.timberlake@lonres.com>",

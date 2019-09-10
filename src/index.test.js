@@ -9,7 +9,7 @@ test('It should be able to parse flattened validation messages;', t => {
     t.snapshot(parse(messages));
 });
 
-test.skip('It should be able to parse one-level nested validation messages;', t => {
+test('It should be able to parse one-level nested validation messages;', t => {
     const messages = {
         name: {
             first: 'You must supply a first name.',
@@ -20,7 +20,7 @@ test.skip('It should be able to parse one-level nested validation messages;', t 
     t.snapshot(parse(messages));
 });
 
-test.skip('It should be able to parse n-level nested validation messages;', t => {
+test('It should be able to parse n-level nested validation messages;', t => {
     const messages = {
         name: {
             first: 'You must supply a first name.',
